@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding: 1rem;
+        }
+        #resume {
+            background-color: #fff;
+            border: 1px solid #e5e7eb;
+            padding: 1rem;
+        }
+        #sidebar {
+            background-color: #f0f4f8;
+            padding: 1rem;
+            height: 100%;
+        }
+        .section-title {
+            color: #6b7280;
+        }
+        .list-disc {
+            list-style-type: disc;
+            margin-left: 1rem;
+        }
+        .list-disc li {
+            position: relative;
+            padding-left: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .list-disc li::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0.5rem;
+            width: 0.5rem;
+            height: 0.5rem;
+            background-color: #4a5568;
+            border-radius: 50%;
+        }
+        .page-break {
+            /* display: block; */
+            height: 0; /* Make sure it doesn't take up space */
+            page-break-before: always;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <div id="resume" class="max-w-4xl mx-auto bg-white shadow-lg flex flex-wrap-reverse md:flex-wrap">
+        <!-- Main Content -->
+        <div class="w-full md:w-2/3 p-6">
+            
+            <!-- Summary -->
+            <div class="mb-6">
+                <h2 class="text-xl font-semibold text-green-600">Summary</h2>
+                <p class="text-gray-600">Experienced Software Engineer with over 6 years in web and software development, specializing in backend and full-stack development. Proven expertise in Java Spring Boot, Angular, React, Vue, and various database management systems including MySQL, PostgreSQL, and MariaDB. Adept at handling complex data, optimizing performance, ensuring security, and leading projects. Skilled in developing responsive layouts and UX, managing servers with JBoss and Docker, and implementing robust security measures. Extensive experience in Agile project management and big data solutions.</p>
+            </div>
+
+            <!-- Experience -->
+            <div class="mb-6">
+                <h2 class="text-xl font-semibold text-green-600">Experience</h2>
+                <div class="mb-4 section">
+                    <h3 class="text-lg font-semibold">Freelancer</h3>
+                    <p class="text-blue-600">Self Emplyee (Software Engineer)</p>
+                    <p class="text-gray-600">March 2024 - Present ( 6 month )</p>
+                    <p class="text-gray-600">Bekasi, Indonesia</p>
+                    <ul class="list-disc text-gray-700 mt-2">
+                        <li>Full Stack Developer</li>
+                        <li>Develop Project POS With Custome Feature</li>
+                        <li>Manage Database Postgre</li>
+                        <li>Front End for Handle Layout using Nuxt Js</li>
+                        <li>Spring for handle Back End</li>
+                        <li>Manage all in Docker</li>
+                    </ul>
+                </div>
+                <div class="mb-4 section">
+                    <h3 class="text-lg font-semibold">PT Bank Mandiri (Persero) Tbk.</h3>
+                    <p class="text-blue-600">Software Engineer</p>
+                    <p class="text-gray-600">April 2022 - July 2024 (2 years 4 months)</p>
+                    <p class="text-gray-600">Jakarta, Indonesia</p>
+                    <ul class="list-disc text-gray-700 mt-2">
+                        <li>Handle application with Wavemaker</li>
+                        <li>Management database MySQL, MariaDB, PostgreSQL</li>
+                        <li>Handle layout responsive and UX, good security action, and make best performance</li>
+                        <li>Backend using Java Spring Boot: Email Sender or Blast, Jasper Report, Upload Excel Data, Convert Excel to Image and Render to PDF, Custom Login LDAP, LDAP get data information</li>
+                        <li>Set Security Banking: Handler Host Injection, XSS Attack, Security Patcher, Error API handler, Login Handler</li>
+                        <li>Query PostgreSQL: Making customize data result, logic and big data handler</li>
+                        <li>Frontend using Angular: Handle Parameterize Menu, Data Handler, Caching System, etc</li>
+                        <li>Full Parameterize Menu All Handling</li>
+                        <li>Handle server using JBoss and Docker</li>
+                    </ul>
+                    <h4 class="mt-2">List Of Project IT APD Release (Software Engineer):</h4>
+                    <ul class="list-disc text-gray-700 mt-2">
+                        <li>"Treasury Portal Phase 1. From existing to New Feature Reporting Department</li>
+                        <li>"Treasury Portal Phase 2. Implement New Feature Administration Department</li>
+                    </ul>
+                    <h4 class="mt-2">List Of Project IT APD (Project Lead):</h4>
+                    <ul class="list-disc text-gray-700 mt-2">
+                        <li>"Productivity Monitoring. Handle big scale transaction data from data laptop to manage all condition using pre-calculated for fast performance reporting</li>
+                    </ul>
+                    <h4 class="mt-2">List Of Project IT APD Not Release (Software Engineer):</h4>
+                    <ul class="list-disc text-gray-700 mt-2">
+                        <li>"KMS Compliance. Management document and report</li>
+                    </ul>
+                </div>
+                <div class="mb-4 section">
+                    <h3 class="text-lg font-semibold">PT EDI Indonesia</h3>
+                    <p class="text-blue-600">Software Engineer (Product Support)</p>
+                    <p class="text-gray-600">February 2022 - April 2022 (3 months)</p>
+                    <p class="text-gray-600">Jakarta, Indonesia</p>
+                    <ul class="list-disc text-gray-700 mt-2">
+                        <li>Maintenance Product: Frontend & Backend: Laravel 5. Database: MySQL</li>
+                        <li>Develop Product: Frontend: React (Next Js + Tailwind JS or Notus JS using Redux for management data & react hooks, Highchart + Antdesign for UI component)</li>
+                        <li>Backend: Laravel JS. Database: PostgreSQL</li>
+                    </ul>
+                </div>
+                <div class="mb-4 section">
+                    <h3 class="text-lg font-semibold">MediaWave Interactive™ (We're Hiring!)</h3>
+                    <p class="text-blue-600">Full Stack Developer</p>
+                    <p class="text-gray-600">August 2021 - December 2021 (5 months)</p>
+                    <p class="text-gray-600">Jakarta, Indonesia</p>
+                    <ul class="list-disc text-gray-700 mt-2">
+                        <li>Work as full stack developer collecting some social media data for getting raw data to manage reporting</li>
+                        <li>Frontend: Vue Nuxt.js, Highchart, Leaflet</li>
+                        <li>Backend: Laravel. Database: PostgreSQL for management internal data</li>
+                    </ul>
+                </div>
+                <div class="mb-4 section">
+                    <h3 class="text-lg font-semibold">PT Immobi Solusi Prima</h3>
+                    <p class="text-blue-600">Full Stack Developer</p>
+                    <p class="text-gray-600">January 2020 - August 2021 (1 year 8 months)</p>
+                    <p class="text-gray-600">Jakarta Selatan, Jakarta, Indonesia</p>
+                    <ul class="list-disc text-gray-700 mt-2">
+                        <li>Working project development system AGILE and big data</li>
+                        <li>Frontend: React JS, Highchart, Google Map API, Reporting and MobX, Render Location in Google Map and handle big data for render using long lat in some area</li>
+                        <li>Backend: Adonis JS TypeScript and handle cache for all response</li>
+                    </ul>
+                </div>
+                <div class="mb-4 section">
+                    <h3 class="text-lg font-semibold">Devolusi (Website Development Solutions)</h3>
+                    <p class="text-blue-600">Full Stack Developer</p>
+                    <p class="text-gray-600">September 2019 - January 2020 (5 months)</p>
+                    <p class="text-gray-600">Sleman, Yogyakarta, Indonesia</p>
+                    <ul class="list-disc text-gray-700 mt-2">
+                        <li>Working with some project development</li>
+                        <li>Frontend & Backend: Codeigniter 3 and jQuery with custom layout in one page all in</li>
+                    </ul>
+                </div>
+                <div class="mb-4 section">
+                    <h3 class="text-lg font-semibold">PT. NETINDO SOLUTION GROUP</h3>
+                    <p class="text-blue-600">Backend Developer</p>
+                    <p class="text-gray-600">July 2019 - September 2019 (3 months)</p>
+                    <p class="text-gray-600">Sleman, Yogyakarta, Indonesia</p>
+                    <ul class="list-disc text-gray-700 mt-2">
+                        <li>Working with project client base (e-commerce + payment)</li>
+                        <li>Frontend: Codeigniter v.2 + jQuery + Ajax</li>
+                        <li>Backend: React Native (Payment Mandiri + BCA)</li>
+                    </ul>
+                </div>
+                <div class="mb-4 section">
+                    <h3 class="text-lg font-semibold">Sehati Nusa Kreasi</h3>
+                    <p class="text-blue-600">Web Developer</p>
+                    <p class="text-gray-600">November 2018 - June 2019 (8 months)</p>
+                    <p class="text-gray-600">Jakarta, Indonesia</p>
+                    <ul class="list-disc text-gray-700 mt-2">
+                        <li>Working with internal project (traveling and food) using Codeigniter full v2 + jQuery + Google Map API + using API Fastify</li>
+                    </ul>
+                </div>
+                <div class="mb-4 section">
+                    <h3 class="text-lg font-semibold">Freelance</h3>
+                    <p class="text-blue-600">Web Developer</p>
+                    <p class="text-gray-600">February 2015 - October 2018 (3 years 9 months)</p>
+                    <p class="text-gray-600">Purwokerto, Central Java, Indonesia · Remote</p>
+                    <ul class="list-disc text-gray-700 mt-2">
+                        <li>Handle project for application thesis using base builder website (Codeigniter, Laravel, JavaScript, PostgreSQL, MySQL, NoSQL) using any method and analytic the thesis and help any business web application from my campus</li>
+                        <li>The project includes: Any POS System, Administration, Reporting, Company Profile</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sidebar -->
+        <div id="sidebar" class="w-full md:w-1/3 p-6 bg-gray-200 md:pl-8 md:order-last">
+
+            <!-- Header -->
+            <div class="mb-6">
+                <h1 class="text-4xl font-bold">Iqbal Dwi Rusmady</h1>
+                <p class="text-gray-600">Java Back End Developer</p>
+            </div>
+
+            <h2 class="text-2xl font-semibold mb-4">Contact</h2>
+            <ul class="text-gray-700">
+                <li class="mb-2"><strong>Email:</strong> ixal.of@gmail.com</li>
+                <li class="mb-2"><strong>Phone:</strong> +6282223089369</li>
+                <li class="mb-2"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/iqbal-dwi-rusmady-246a18225/" class="text-blue-500 underline">linkedin.com/in/iqbal-dwi-rusmady-246a18225</a></li>
+                <li class="mb-2"><strong>HackerRank:</strong> <a href="https://www.hackerrank.com/profile/ixal_of" class="text-green-500 underline">hackerrank.com/profile/ixal_of</a></li>
+            </ul>
+
+            <h2 class="text-2xl font-semibold mt-8 mb-4">Skills</h2>
+            <ul class="text-gray-700">
+                <li class="mb-2">Java</li>
+                <li class="mb-2">Spring Framework</li>
+                <li class="mb-2">RESTful API Development</li>
+                <li class="mb-2">Databases</li>
+                <li class="mb-2">Problem-Solving</li>
+            </ul>
+
+            <h2 class="text-2xl font-semibold mt-8 mb-4">Education</h2>
+            <ul class="text-gray-700">
+                <li class="mb-2"><strong>Bachelor's in System Information</strong> - STIKOM Yos Sudarso Purwokerto (2014-2018)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="text-center mt-8">
+        <button id="download-pdf" class="bg-blue-600 text-white py-2 px-4 rounded">Download PDF</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+    <script>
+        document.getElementById('download-pdf').addEventListener('click', function () {
+            const element = document.querySelector("#resume");
+            const opt = {
+                margin: [10, 10, 10, 10],
+                filename: 'resume.pdf',
+                image: { type: 'jpeg', quality: 0.98 },
+                html2canvas: { scale: 2 },
+                jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
+                pagebreak: { mode: ['avoid-all', 'css', 'legacy'], before: '.page-break' }
+            };
+
+            html2pdf().set(opt).from(element).save();
+        });
+    </script>
+</body>
+</html>
